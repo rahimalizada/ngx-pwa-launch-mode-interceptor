@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 
 @Injectable()
 export class PwaLaunchModeInterceptor implements HttpInterceptor {
-  mode = 'browser';
+  mode = 'undetermined';
   constructor() {
     // https://web.dev/customize-install/
     const nav: any = navigator;
@@ -17,6 +17,8 @@ export class PwaLaunchModeInterceptor implements HttpInterceptor {
       this.mode = 'installed-ios';
     } else if (matchMedia('(display-mode: standalone)').matches) {
       this.mode = 'installed';
+    } else {
+      this.mode = 'browser';
     }
   }
 
