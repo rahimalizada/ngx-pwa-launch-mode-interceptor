@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@rahimalizada/ngx-pwa-launch-mode-interceptor": [
+        "dist/rahimalizada/ngx-pwa-launch-mode-interceptor/rahimalizada-ngx-pwa-launch-mode-interceptor",
+        "dist/rahimalizada/ngx-pwa-launch-mode-interceptor"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
