@@ -1,6 +1,35 @@
 {
   "name": "@rahimalizada/ngx-pwa-launch-mode-interceptor",
   "version": "0.0.2",
+  "description": "An Angular interceptor that adds a launch mode header to PWAs",
+  "keywords": [
+    "interceptor",
+    "angular",
+    "pwa",
+    "launch",
+    "header",
+    "mode"
+  ],
+  "author": {
+    "name": "Rahim Alizada"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/rahimalizada/ngx-pwa-launch-mode-interceptor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahimalizada/ngx-pwa-launch-mode-interceptor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahimalizada/ngx-pwa-launch-mode-interceptor/issues"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
   "peerDependencies": {
     "@angular/common": "^9.1.4",
     "@angular/core": "^9.1.4",
