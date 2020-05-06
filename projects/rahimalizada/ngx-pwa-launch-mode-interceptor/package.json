@@ -22,14 +22,6 @@
   "bugs": {
     "url": "https://github.com/rahimalizada/ngx-pwa-launch-mode-interceptor/issues"
   },
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
-  },
   "peerDependencies": {
     "@angular/common": "^9.1.4",
     "@angular/core": "^9.1.4",
