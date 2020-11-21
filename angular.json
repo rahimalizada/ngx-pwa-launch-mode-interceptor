@@ -30,18 +30,16 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "projects/rahimalizada/ngx-pwa-launch-mode-interceptor/tsconfig.lib.json",
-              "projects/rahimalizada/ngx-pwa-launch-mode-interceptor/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "projects/rahimalizada/ngx-pwa-launch-mode-interceptor/**/*.ts",
+              "projects/rahimalizada/ngx-pwa-launch-mode-interceptor/**/*.html"
             ]
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "@rahimalizada/ngx-pwa-launch-mode-interceptor"
 }
