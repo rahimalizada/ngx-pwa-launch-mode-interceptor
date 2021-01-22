@@ -1,6 +1,6 @@
 {
   "name": "@rahimalizada/ngx-pwa-launch-mode-interceptor",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "An Angular interceptor that adds a launch mode header to PWAs",
   "keywords": [
     "interceptor",
